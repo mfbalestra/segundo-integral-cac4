@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferencia CaC</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-oscuro">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">
+                <img src="img/codoacodo.png" alt="Codo a Codo" width="100" height="57">
+                Conf Bs As
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conviértete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><span class="texto-verde">Comprar tickets</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+    <div class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/ba1.jpg" class="img-fluid img-semitrans" alt="Buenos Aires 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/ba2.jpg" class="img-fluid img-semitrans" alt="Buenos Aires 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/ba3.jpg" class="img-fluid img-semitrans" alt="Buenos Aires 3">
+            </div>
+            <div class="carousel-caption text-white">
+                <h1 class="text-end">Conf Bs As</h1>
+                <div>
+                    <p class="text-end">Bs As llega por primera vez a Argentina.<span
+                            class="d-block d-sm-none">...</span><span class="d-none d-sm-block"> Un evento para
+                            compartir con nuestra comunidad
+                            el conocimiento y experiencia de los expertos que están creando el futuro de
+                            internet.
+                            Ven a conocer a miembros del evento, a otros estudiantes de Codo a Como y los
+                            oradores de
+                            primer nivel
+                            que tenemos para tí. Te
+                            esperamos</span></p>
+                </div>
+                <div class="d-flex justify-content-end ">
+                    <button type="button" class="btn btn-outline-light me-2">Quiero ser orador</button>
+                    <button type="button" class="btn btn-success">Comprar tickets</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <!--Pre-Cartas-->
+        <p class="text-center mt-2 mb-0">CONOCE A LOS</p>
+        <p class=" h1 text-center mt-0">ORADORES</h1>
+            <!--Carta de Steve Jobs-->
+        <div class="d-flex ms-1 me-1">
+            <div class="box col-2">
+            </div>
+            <div class="box col-8">
+                <div class="row row-cols-1 row-cols-sm-3 g-3  mb-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="img/steve.jpg" alt="steve">
+                            <div class="card-body">
+                                <span class="badge bg-warning text-dark">Javascript</span>
+                                <span class="badge bg-react">React</span>
+                                <h4 class="card-title">Steve Jobs</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Perferendis iusto
+                                    aspernatur
+                                    vero odio! Recusandae sequi, accusamus nobis maiores esse laboriosam ut sint.
+                                    Veniam
+                                    placeat
+                                    corporis
+                                    odit delectus modi repudiandae voluptates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Carta de Bill Gates-->
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/bill.jpg" alt="Bill">
+                            <div class="card-body">
+                                <span class="badge bg-warning text-dark">Javascript</span>
+                                <span class="badge bg-react">React</span>
+                                <h4 class="card-title">Bill Gates</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Perferendis iusto
+                                    aspernatur
+                                    vero odio! Recusandae sequi, accusamus nobis maiores esse laboriosam ut sint.
+                                    Veniam
+                                    placeat
+                                    corporis
+                                    odit delectus modi repudiandae voluptates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Carta de Ada Lovelace-->
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/ada.jpeg" alt="Ada">
+                            <div class="card-body">
+                                <span class="badge bg-secondary">Negocios</span>
+                                <span class="badge bg-danger">Startups</span>
+                                <h4 class="card-title">Ada Lovelace</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Perferendis iusto
+                                    aspernatur
+                                    vero odio! Recusandae sequi, accusamus nobis maiores esse laboriosam ut sint.
+                                    Veniam
+                                    placeat
+                                    corporis
+                                    odit delectus modi repudiandae voluptates.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box col-2">
+            </div>
+        </div>
+        <!---Postal--->
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="img/honolulu.jpg" class="img-fluid" alt="Buenos Aires Octubre">
+                </div>
+                <div class="col-md-6 bg-oscuro">
+                    <div class="card-body text-light">
+                        <h2 class="card-title">Bs As - Octubre</h2>
+                        <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de
+                            Argentina, en
+                            los Estados Unidos. honolulu es la más sureña de estre las principales ciudades
+                            estadounidenses.
+                            Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de
+                            Oahu,
+                            la
+                            ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre
+                            toda la
+                            ciudad
+                            (aproximadamente 600km<sup>2</sup> de superficie)</p>
+                        <button type="button" class="btn btn-outline-light">Conocé más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---Pre-Formulario--->
+        <p class="text-center mt-2 mb-0">CONVIÉRTETE EN UN</p>
+        <p class=" h1 text-center mt-0">ORADOR</h1>
+        <p class="text-center">Anótate como orador para dar una <span
+                style="text-decoration: underline; text-decoration-style: dotted;">charla ignite</span>. Cuéntanos de
+            qué quieres hablar!</p>
+        <!--Formulario-->
+        <div class="d-flex mt-3 mb-3">
+            <div class="box col-sm-3 col-1">
+            </div>
+            <div class="box col-sm-6 col-10">
+                <div class="row g-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control mt-3" placeholder="Sobre qué quieres hablar?" id="etiquetaflotante"
+                        style="height: 100px"></textarea>
+                    <label for="etiquetaflotante">Sobre qué quieres hablar?</label>
+                </div>
+                <p><small class="text-muted">Recuerda incluir un título para tu charla.</small></p>
+                <button type="submit" class="btn text-light w-100"
+                    style="--bs-btn-bg: #96c93e;--bs-btn-hover-bg:rgb(62, 187, 36);">Enviar</button>
+            </div>
+            <div class="box col-sm-3 col-1">
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <ul class="nav justify-content-center">
+            <li class="nav-item m-auto">
+                <a class="nav-link text-light" href="#">Preguntas <br>frecuentes</a>
+            </li>
+            <li class="nav-item m-auto">
+                <a class="nav-link text-light" href="#">Contáctanos</a>
+            </li>
+            <li class="nav-item m-auto">
+                <a class="nav-link text-light" href="#">Prensa</a>
+            </li>
+            <li class="nav-item m-auto">
+                <a class="nav-link text-light" href="#">Conferencias</a>
+            </li>
+            <li class="nav-item m-auto">
+                <a class="nav-link text-light" href="#">Términos y <br>condiciones</a>
+            </li>
+            <li class="nav-item m-auto">
+                <a class="nav-link text-light" href="#">Privacidad</a>
+            </li>
+            <li class="nav-item m-auto m-auto">
+                <a class="nav-link text-light" href="#">Estudiantes</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

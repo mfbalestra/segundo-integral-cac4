@@ -1,0 +1,27 @@
+@media screen and (max-width: 890px) {
+
+    html {
+        font-size: 12px;
+    }
+}
+
+.bg-oscuro {
+    background-color: rgb(53, 58, 64);
+}
+
+.bg-react {
+    background-color: rgb(21, 113, 129);
+}
+
+.texto-verde {
+    color: rgb(51, 117, 71);
+}
+
+.img-semitrans {
+    filter: brightness(50%);
+}
+
+footer {
+        background-image: linear-gradient(to right, #21333c, #1b5271);
+        justify-content: center;
+}
