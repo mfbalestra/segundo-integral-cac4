@@ -21,6 +21,11 @@
     filter: brightness(50%);
 }
 
+.pago-total {
+    background-color: rgb(204, 229, 255);
+    border: 1px solid rgb(187, 219, 255);
+}
+
 footer {
         background-image: linear-gradient(to right, #21333c, #1b5271);
         justify-content: center;
